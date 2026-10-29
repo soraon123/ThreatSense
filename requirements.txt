@@ -1,0 +1,30 @@
+# ─────────────────────────────────────────────────────────────────────────────
+# Adaptive Dynamic Threat Response System — Python Dependencies
+# Install with:  pip install -r requirements.txt
+# ─────────────────────────────────────────────────────────────────────────────
+
+# Web dashboard
+streamlit==1.35.0
+
+# Read operating-system process information
+psutil==5.9.8
+
+# MongoDB driver for Python
+pymongo==4.7.2
+
+# Tabular data display and processing
+pandas==2.2.2
+
+# Machine-learning anomaly detector (optional feature)
+scikit-learn==1.5.0
+numpy==1.26.4
+
+# Load configuration from a .env file
+python-dotenv==1.0.1
+
+# Automated testing
+pytest==8.2.2
+
+# Charts inside Streamlit
+plotly==5.22.0
+

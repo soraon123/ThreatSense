@@ -1,0 +1,36 @@
+# ─────────────────────────────────────────────────────────────────────────────
+# .gitignore — Files Git should NEVER track
+# ─────────────────────────────────────────────────────────────────────────────
+
+# Environment file — contains real secrets
+.env
+
+# Python virtual environment folder
+venv/
+.venv/
+env/
+
+# Python bytecode cache
+__pycache__/
+*.pyc
+*.pyo
+
+# pytest cache
+.pytest_cache/
+
+# Editor / IDE files
+.vscode/
+.idea/
+*.swp
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+
+# Trained ML model files (can be large)
+*.pkl
+*.joblib
+
+# Log files
+*.log
+
